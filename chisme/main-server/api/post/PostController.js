@@ -2,7 +2,7 @@ import express from "express";
 import Post from "../../helpers/post/Post.js";
 import Token from "../../helpers/tokens/Token.js";
 const router = express.Router();
-// Change
+// Change To the rest
 router.get("/", Token.authorizeToken, async (req, res) => {
     try{
       const {id} = req.query;
