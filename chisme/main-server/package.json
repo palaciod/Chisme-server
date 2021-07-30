@@ -1,0 +1,21 @@
+{
+  "name": "main-server",
+  "version": "1.0.0",
+  "description": "A server that will handle most of the data associated with chisme. For example post and score data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Palacio",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "validator": "^13.6.0"
+  }
+}
